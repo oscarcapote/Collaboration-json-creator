@@ -1,12 +1,12 @@
 # Collaboration-json-creator
 
 Programa que a partir de una llista de investigador-article genera una xarxa de col·laboració en format JSON
-##Dependències:
+## Dependències:
 Python3
-NetworkX: [link] (https://networkx.github.io/)
-Llibreria de detecció de comiunitats amb mètode de Louvain: [link] (https://bitbucket.org/taynaud/python-louvain)
+NetworkX: https://networkx.github.io/
+Llibreria de detecció de comiunitats amb mètode de Louvain: https://bitbucket.org/taynaud/python-louvain
 
-##Arxiu de input:
+## Arxiu de input:
 L'arxiu ha de estar en codificació utf8 emprant com a separador de columnes §.
 La primera columna ha de ser el nom de l'investigador i a la segona l'article publicat.
 Per exemple:
@@ -14,7 +14,7 @@ John Smith§Estudis de vibracions
 
 L'arxiu s'ha de posar a la carpeta `input_file`.
 
-##Execució:
+## Execució:
 Per executar el programa `json_maker.py` has de executar la comanda:
 '''
 python3 json_maker.py nom_arxiu
