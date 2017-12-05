@@ -2,9 +2,9 @@
 
 Programa que a partir de una llista de investigador-article genera una xarxa de col·laboració en format JSON
 ## Dependències:
-Python3
-NetworkX: [link](https://networkx.github.io/)
-Llibreria de detecció de comiunitats amb mètode de Louvain: [link](https://bitbucket.org/taynaud/python-louvain)
+- Python3.
+- NetworkX: [link](https://networkx.github.io/).
+- Llibreria de detecció de comiunitats amb mètode de Louvain: [link](https://bitbucket.org/taynaud/python-louvain).
 
 ## Arxiu de input:
 L'arxiu ha de estar en codificació utf8 emprant com a separador de columnes §.
